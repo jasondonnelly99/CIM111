@@ -9,4 +9,12 @@ The purpose of this repository is to act as a home for all assignments that I co
 	<li>Assignment 4:</li>
 	<li>Assignment 5:</li>
 </ul>
-ssssss
+<h2>Getting Started</h2>
+<ol>
+	<li>Fork, download or clone the repository.</li>
+	<li>That's it. All there is to it.</li>
+</ol>
+<h2>Further Help</h2>
+If further help is needed, feel free to contact me for assistance.
+<h2>Contributors</h2>
+Jason Donnelly...and no one else.
