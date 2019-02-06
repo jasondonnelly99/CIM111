@@ -8,6 +8,7 @@ The purpose of this repository is to act as a home for all assignments that I co
 	<li>Assignment 3:</li>
 	<li>Assignment 4:</li>
 	<li>Assignment 5:</li>
+</ul>
 ## Getting Started/Instructions
 To get started,
 1. Fork, download or clone the repository.
