@@ -1,0 +1,61 @@
+#firstName{
+	font-family: 'Raleway', sans-serif;
+	font-size: x-large;
+}
+#superhero{
+	font-size: x-large;
+	font-weight: bolder;
+	text-decoration: underline;
+	text-decoration-color: darkblue
+}
+/* I have not used the "text-decoration-color"
+css tag until this assignment, and there it is!*/
+p{
+	font-style: italic;
+}
+.headingtwo{
+	font-size: larger;
+	font-weight: bold;
+}
+table{
+	border: solid;
+	border-collapse: collapse;
+}
+th{
+	border: solid;
+	border-collapse: collapse;
+	font-weight: 600;
+	font-style: italic;
+	font-size: large;
+}
+.position{
+	border: solid;
+	border-collapse: collapse;
+}
+.description{
+	border: solid;
+	border-collapse: collapse;
+	font-style: italic;
+}
+ul{
+	list-style-type: disc;
+	list-style-position: inside;
+}
+.editlink{
+	color: #890b0b;
+	text-decoration: none;
+}
+a:hover{
+	color: hotpink;
+}
+.noedit{
+	text-decoration: none;
+}
+#tag{
+	font-size: larger;
+	font-weight: bold;
+	font-family: 'Patrick Hand', cursive;
+}
+address{
+	font-family: 'Patrick Hand', cursive;
+}
