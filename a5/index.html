@@ -2,10 +2,97 @@
 <html>
 
   <head>
-     <title>Assignment 5: </title>
+     <title>Assignment 5: How-To Website</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="assets/style.css">
+     <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
   </head>
 
 <body>
+<div id="opening">
+	<h1>How-To Make: A Webpage</h1>
+<p>By following the instructions on this webpage, you'll learn to code and stylize a page just like this one!</p>
+</div>
+<div class="step">
+	<h2>Step 1: Can You Type?</h2>
+	<p>Since coding is a fairly language-intensive activty, we'll need to make sure that you can type or otherwise input characters into your computer.</p>
+	<div id = "testing" onclick="typetest()">Click me to test your typing skills!</div>
+	<div id="moretext" onclick="newstuff()">For additional practice, click me to add whatever text you want onto the page!</div>
+	<p id="whattype"></p>
+	
+</div>
+<div class="step">
+	<h2>Step 2: Download a Text Editor</h2>
+	<p>Technically, you can write code in just about any program, but it's much easier to use a text editor. Sublime Text 3 is just one of many different programs used by coders all over the world.</p>
+	<a href="https://www.sublimetext.com/3" id="link">Click me to download Sublime.</a>
+</div>
+<div class="step">
+	<h2>Step 3: Learn the Ways of HTML</h2>
+	<p>HTML is the basis of most webpages, so you'll need to get familiar with it before proceeding any further.</p>
+	<a href="https://www.google.com/" id="secondlink">There are plenty of online resources to learn HTML - get searching!</a>
+</div>
+<div class="step">
+	<h2>Step 4: Uncover the Mysterious Forces of CSS</h2>
+	<p>While HTML forms the skeleton of webpages, CSS is what is used to stylize pages. This webpage is quite simple, but the possibilities of CSS are limitless!</p>
+	<div id="changecolor">Click here to see what happens when you use CSS!</div>
+</div>
+<div class="step">
+	<h2>Step 5: Master the JavaScript Dark Arts</h2>
+	<p>Finally, once you've gotten the hang of HTML and CSS, it's time to complete the holy trinity and learn JavaScript. It's what helped create all of the interactive portions of this page!</p>
+</div>
+<div class="step">
+	<h2>Step 6: Have Fun!</h2>
+	<p>This is the most important step. Even when things get frustrating, power through! </p>
+</div>
+<button onclick="theFunction()">Click me twice to see who made this page!</button>
 
-</body>
+<div id="author">
+Jason Donnelly
+</div> 
+<script>
+
+testing.addEventListener("click", function typetest(){
+	var test = prompt("Type the 3-letter name of the animal that says 'moo'.");
+	if (test.toLowerCase() === "cow") {
+		alert("Correct! You know about typing and basic farm animals!")} else {
+		alert("Sorry, that's not correct. You might want to brush up before continuing.")}
+});
+
+function newstuff() {
+  var person = prompt("Please type what you would like to appear on the page");
+  if (person != null) {
+    document.getElementById("whattype").innerHTML =
+    "You typed:" + "  " + person ;
+  }
+}
+
+document.getElementById("link").addEventListener("mouseover", mouseOver);
+document.getElementById("link").addEventListener("mouseleave", mouseLeave);
+
+function mouseOver() {
+  document.getElementById("link").style.color = "red";
+}
+
+function mouseLeave() {
+  document.getElementById("link").style.color = "darkred";
+}
+
+var clrchng = document.getElementById("changecolor");
+
+      clrchng.addEventListener("click", function(){
+          document.body.style.backgroundColor = "#E9BEFC";
+      });
+	function theFunction() {
+  var x = document.getElementById("author");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+ for (var i = 1; i < 17; i++) {
+        console.log("This has looped " + i + " times");
+      }
+ console.log ("I couldn't figure out where to put a loop in my page, so here it is! Above, there should be a loop that goes up to the number sixteen.")
+</script>
 </html>

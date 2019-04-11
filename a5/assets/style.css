@@ -1,0 +1,33 @@
+#opening{
+	padding-left: 10px;
+	background-color: #949191;
+	margin-right: 550px;
+}
+.step{
+	padding: 10px;
+margin-right: 100px;
+}
+#testing{
+	font-weight: bolder;
+	padding-bottom: 20px;
+}
+#moretext{
+	font-weight: bold;
+	font-style: italic;
+}
+#whattype{
+	font-family: "Courier New", Courier;
+	font-style: normal;
+}
+p{
+	font-style: italic;
+}
+#changecolor{
+	font-weight: bolder;
+}
+
+#author{
+
+	display: none;
+	font-family: 'Dokdo', cursive;
+}

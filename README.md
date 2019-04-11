@@ -7,7 +7,7 @@ The purpose of this repository is to act as a home for all assignments that I co
 	<li>Assignment 2: HTML Resume</li>
 	<li>Assignment 3: HTML Resume with CSS</li>
 	<li>Assignment 4: 3-Page Responsive Website</li>
-	<li>Assignment 5:</li>
+	<li>Assignment 5: How-To Page (with JS)</li>
 </ul>
 <h2>Getting Started</h2>
 <ol>
